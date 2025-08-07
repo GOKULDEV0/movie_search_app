@@ -6,9 +6,9 @@ A responsive and elegant movie search application built with **React** and the *
 
 ## Demo
 
-![Home Page Screenshot](./assets/image1.png)  
-![Movie List Screenshot](./assets/image2.png)
-![Movie Details Screenshot1](./assets/image3.png)
+![Home Page Screenshot](./src/assets/image1.png)  
+![Movie List Screenshot](./src/assets/image2.png)
+![Movie Details Screenshot1](./src/assets/image3.png)
 
 
 
