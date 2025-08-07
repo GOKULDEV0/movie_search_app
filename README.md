@@ -1,70 +1,120 @@
-# Getting Started with Create React App
+# Movie Search App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A responsive and elegant movie search application built with **React** and the **OMDb API**. Users can search for movies, view them in a beautiful grid layout, and click a movie card to see full details — all styled with a striking **Blue theme**.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## Demo
 
-### `npm start`
+![Home Page Screenshot](./assets/image1.png)  
+![Movie List Screenshot](./assets/image2.png)
+![Movie Details Screenshot1](./assets/image3.png)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+##  Features
 
-### `npm run build`
+-  **Search Movies** by title using the OMDb API  
+-  **Responsive Grid**: 3-column layout on desktop, 1-column on mobile  
+-  **Movie Cards** with poster, title, year, and type  
+-  **Movie Detail Page** with:
+  - Poster, Title, Release Date, Genre, Runtime  
+  - Plot Summary, Cast, Director, Writer  
+  - Ratings from IMDb, Rotten Tomatoes, Metacritic  
+-  **Modern UI** with a Blue color theme  
+-  Smooth navigation using `react-router-dom`  
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+##  Tech Stack
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- [React.js](https://reactjs.org/)  
+- [React Router](https://reactrouter.com/)  
+- [OMDb API](https://www.omdbapi.com/)  
+- CSS (custom using Flexbox and Grid)  
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+##  Folder Structure
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```
+movie-search-app/
+│
+├── public/
+│   └── index.html
+│
+├── src/
+│   ├── 
+│   ├── SearchPage.js   
+│   │   MovieDetailsPage.js
+│   ├── App.js
+│   ├── index.css
+│   └── index.js
+│
+├── README.md
+└── package.json
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+##  Setup Instructions
 
-## Learn More
+1. **Clone the Repository**
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+git clone https://github.com/GOKULDEV0/movie_search_app.git
+cd movie-search-app
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+2. **Install Dependencies**
 
-### Code Splitting
+```bash
+npm install
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+3. **Configure OMDb API Key**
 
-### Analyzing the Bundle Size
+```
+OMDB_API_KEY=your_omdb_api_key_here
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+ Get your API key from: [https://www.omdbapi.com/apikey.aspx](https://www.omdbapi.com/apikey.aspx)
 
-### Making a Progressive Web App
+4. **Run the Development Server**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+```bash
+npm run dev
+```
 
-### Advanced Configuration
+The app will be live at: [http://localhost:5173](http://localhost:5173)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+---
 
-### Deployment
+##  Challenges Faced
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+- Handling missing poster images with default placeholders  
+- Designing a responsive and aesthetic red/black UI  
+- Dynamic routing for individual movie detail pages  
 
-### `npm run build` fails to minify
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+##  Acknowledgements
+
+- [OMDb API](https://www.omdbapi.com/)  
+- [React Router](https://reactrouter.com/)  
+- [via.placeholder.com](https://via.placeholder.com/) – for fallback images  
+
+---
+
+##  License
+
+This project is licensed under the **MIT License**.
+
+---
+
+## Author
+
+**GOKUL**  
+GitHub: [@GOKULDEV0](https://github.com/GOKULDEV0)
